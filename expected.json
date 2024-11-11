@@ -1,0 +1,69 @@
+[
+  {
+    "id": "thread_1",
+    "name": "Thread 1",
+    "metadata": null,
+    "tags": null,
+    "createdAt": "2024-11-11T10:32:38.351059Z",
+    "userId": "admin",
+    "userIdentifier": "admin",
+    "steps": [
+      {
+        "id": "step_1_1",
+        "threadId": "thread_1",
+        "name": "test",
+        "type": "user_message",
+        "output": "Message step1"
+      }
+    ]
+  },
+  {
+    "id": "thread_2",
+    "name": "Thread 2",
+    "metadata": null,
+    "tags": null,
+    "createdAt": "2024-11-11T10:32:38.351296Z",
+    "userId": "admin",
+    "userIdentifier": "admin",
+    "steps": [
+      {
+        "id": "step_2_1",
+        "threadId": "thread_2",
+        "name": "test",
+        "type": "user_message",
+        "output": "Message step_2_1"
+      },
+      {
+        "id": "step_2_3",
+        "threadId": "thread_2",
+        "name": "test",
+        "type": "user_message",
+        "output": "Message step_2_3"
+      }
+    ]
+  },
+  {
+    "id": "thread_3",
+    "name": "Thread 3",
+    "metadata": null,
+    "tags": null,
+    "createdAt": "2024-11-11T10:32:38.351350Z",
+    "userId": "admin",
+    "userIdentifier": "admin",
+    "steps": [
+      {
+        "id": "step_3_2",
+        "threadId": "thread_3",
+        "name": "test",
+        "type": "user_message",
+        "output": "Message step_3_2",
+        "feedback": {
+          "forId": "step_3_2",
+          "id": null,
+          "comment": "good",
+          "value": 0
+        }
+      }
+    ]
+  }
+]
